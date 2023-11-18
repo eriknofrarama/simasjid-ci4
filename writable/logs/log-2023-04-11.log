@@ -1,0 +1,121 @@
+CRITICAL - 2023-04-11 11:47:14 --> Invalid file: v_rekap_kas_masjid.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_rekap_kas_masjid.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_rekap_kas_masjid', [], true)
+ 3 APPPATH\Views\v_template_admin.php(284): view('v_rekap_kas_masjid')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasMasjid.php(26): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 15:28:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\KasMasjid.php(37): CodeIgniter\Model->__call('AllDataKasMasuk', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->KasMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 15:29:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\KasMasjid.php(37): CodeIgniter\Model->__call('AllDataKasMasuk', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->KasMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 15:29:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\KasMasjid.php(37): CodeIgniter\Model->__call('AllDataKasMasuk', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->KasMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 15:30:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\KasMasjid.php(37): CodeIgniter\Model->__call('AllDataKasMasuk', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->KasMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:04:38 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:05:47 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:05:49 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:06:39 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:06:45 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:06:56 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 16:07:24 --> Unmatched '}'
+in APPPATH\Controllers\KasMasjid.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/KasMasuk')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/KasMasuk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/KasMasuk')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 22:29:29 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Views\kas-masjid\v_rekap_kas_masjid.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Views\\kas-masjid\\v_rekap_kas_masjid.php', 53)
+ 2 APPPATH\Views\kas-masjid\v_rekap_kas_masjid.php(53): number_format(null, 0)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_rekap_kas_masjid.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_rekap_kas_masjid', [], true)
+ 6 APPPATH\Views\v_template_admin.php(286): view('kas-masjid/v_rekap_kas_masjid')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+10 APPPATH\Controllers\KasMasjid.php(26): view('v_template_admin', [...])
+11 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->index()
+12 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

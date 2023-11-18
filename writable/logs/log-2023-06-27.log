@@ -1,0 +1,64 @@
+CRITICAL - 2023-06-27 23:46:11 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:47:12 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:48:19 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:48:50 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:48:52 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:48:55 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:49:02 --> Undefined property: App\Controllers\PesertaQurban::$ModelAdmin
+in APPPATH\Controllers\PesertaQurban.php on line 96.
+ 1 APPPATH\Controllers\PesertaQurban.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PesertaQurban::$ModelAdmin', 'APPPATH\\Controllers\\PesertaQurban.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 23:49:15 --> Undefined variable $masjid
+in APPPATH\Views\qurban\v_laporan_qurban.php on line 58.
+ 1 APPPATH\Views\qurban\v_laporan_qurban.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masjid', 'APPPATH\\Views\\qurban\\v_laporan_qurban.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_laporan_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_laporan_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(568): view('qurban/v_laporan_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(98): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

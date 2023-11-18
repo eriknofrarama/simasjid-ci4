@@ -1,0 +1,455 @@
+CRITICAL - 2023-05-04 09:37:41 --> aploaded is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('aploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'E-Bukti Transfer', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(98): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 09:37:52 --> aploaded is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('aploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'E-Bukti Transfer', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(98): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 09:40:36 --> aploaded is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('aploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'E-Bukti Transfer', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(98): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 09:42:35 --> aploaded is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('aploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'Bukti Transfer', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(98): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 09:44:57 --> aploaded is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 323.
+ 1 SYSTEMPATH\Validation\Validation.php(323): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('aploaded')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('FCPATH\\bukti', 'Bukti Transfer', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(98): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 10:11:53 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp8\htdocs\simasjid-ci4\app\Models\ModelHome.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp8\htdocs\simasjid-ci4\app\Controllers\Home.php(121): App\Models\ModelHome->InsertDonasi(Array)
+#6 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+#7 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8\htdocs\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 10:11:53 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'1111-111-111-1111\', \'Rizki Maiyuda\', \'100000\', \'Masjid\', \'1683169913_818d3041cf46d1b947e8.jpg\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'1111-111-111-1111\', \'Rizki Maiyuda\', \'100000\', \'Masjid\', \'1683169913_818d3041cf46d1b947e8.jpg\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'1111-111-111-1111\', \'Rizki Maiyuda\', \'100000\', \'Masjid\', \'1683169913_818d3041cf46d1b947e8.jpg\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (:id_rekening:, :nama_bank:, :no_rek:, :nama_pengirim:, :jumlah:, :jenis_donasi:, :bukti:, :status:)', [...], false)
+ 5 APPPATH\Models\ModelHome.php(42): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(121): App\Models\ModelHome->InsertDonasi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 10:12:45 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp8\htdocs\simasjid-ci4\app\Models\ModelHome.php(42): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp8\htdocs\simasjid-ci4\app\Controllers\Home.php(121): App\Models\ModelHome->InsertDonasi(Array)
+#6 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+#7 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8\htdocs\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 10:12:45 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'9090-9090-9900-9999\', \'Fajrul Amal\', \'10000\', \'Sosial\', \'1683169965_5bc59da5299c1e4f852f.jpg\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'9090-9090-9900-9999\', \'Fajrul Amal\', \'10000\', \'Sosial\', \'1683169965_5bc59da5299c1e4f852f.jpg\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (\'8\', \'Bank BCA\', \'9090-9090-9900-9999\', \'Fajrul Amal\', \'10000\', \'Sosial\', \'1683169965_5bc59da5299c1e4f852f.jpg\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_donasi` (`id_rekening`, `nama_bank`, `no_rek`, `nama_pengirim`, `jumlah`, `jenis_donasi`, `bukti`, `status`) VALUES (:id_rekening:, :nama_bank:, :no_rek:, :nama_pengirim:, :jumlah:, :jenis_donasi:, :bukti:, :status:)', [...], false)
+ 5 APPPATH\Models\ModelHome.php(42): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(121): App\Models\ModelHome->InsertDonasi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->KirimDonasi()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 10:31:47 --> Undefined variable $agenda
+in APPPATH\Views\v_donasi_masuk.php on line 41.
+ 1 APPPATH\Views\v_donasi_masuk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\v_donasi_masuk.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(298): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(74): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 10:57:27 --> Undefined array key "nama_bank"
+in APPPATH\Views\v_donasi_masuk.php on line 50.
+ 1 APPPATH\Views\v_donasi_masuk.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bank"', 'APPPATH\\Views\\v_donasi_masuk.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(298): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(74): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 11:23:59 --> Undefined array key "jenis-donasi"
+in APPPATH\Views\v_donasi_masuk.php on line 59.
+ 1 APPPATH\Views\v_donasi_masuk.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis-donasi"', 'APPPATH\\Views\\v_donasi_masuk.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(298): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(74): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 11:26:18 --> Undefined array key "jenis-donasi"
+in APPPATH\Views\v_donasi_masuk.php on line 58.
+ 1 APPPATH\Views\v_donasi_masuk.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis-donasi"', 'APPPATH\\Views\\v_donasi_masuk.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(298): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(74): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:23:31 --> Array to string conversion
+in APPPATH\Views\v_template.php on line 37.
+ 1 APPPATH\Views\v_template.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\v_template.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('v_template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 20:30:59 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0306/2023/05/04')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 20:36:05 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0306/2023/05/04')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:26 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:27 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:27 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:27 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:28 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:28 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:29 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:36 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:36 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:19:36 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:20 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:21 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:21 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:22 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:22 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:55 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:56 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:56 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:20:56 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:35 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:35 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:35 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:39 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:39 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:40 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:40 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:51 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:52 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 22:25:52 --> Invalid file: kas-masjid/v_data_laporan, $data.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_data_laporan, $data.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan, $data', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(146): view('kas-masjid/v_data_laporan, $data')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 23:44:01 --> Undefined property: App\Controllers\KasSosial::$ModelAdmin
+in APPPATH\Controllers\KasSosial.php on line 130.
+ 1 APPPATH\Controllers\KasSosial.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\KasSosial::$ModelAdmin', 'APPPATH\\Controllers\\KasSosial.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

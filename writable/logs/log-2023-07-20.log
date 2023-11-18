@@ -1,0 +1,399 @@
+CRITICAL - 2023-07-20 18:31:29 --> Undefined variable $tahun
+in APPPATH\Views\qurban\v_laporan_qurban.php on line 13.
+ 1 APPPATH\Views\qurban\v_laporan_qurban.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\qurban\\v_laporan_qurban.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_laporan_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_laporan_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(547): view('qurban/v_laporan_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(102): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:34:08 --> Undefined variable $menu
+in APPPATH\Views\v_template_admin.php on line 109.
+ 1 APPPATH\Views\v_template_admin.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\v_template_admin.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\PesertaQurban.php(159): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:35:12 --> Undefined variable $masjid
+in APPPATH\Views\kas-masjid\v_laporan_kas_masjid.php on line 58.
+ 1 APPPATH\Views\kas-masjid\v_laporan_kas_masjid.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masjid', 'APPPATH\\Views\\kas-masjid\\v_laporan_kas_masjid.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_laporan_kas_masjid.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_laporan_kas_masjid', [], true)
+ 5 APPPATH\Views\v_template_admin.php(547): view('kas-masjid/v_laporan_kas_masjid')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(159): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:39:55 --> Invalid file: v_laporan_pesertaqurban.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_laporan_pesertaqurban.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_laporan_pesertaqurban.php', [], true)
+ 3 APPPATH\Views\v_template_admin.php(547): view('v_laporan_pesertaqurban.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\PesertaQurban.php(159): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:56:45 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:56:45 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:56:46 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 18:56:46 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:19:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 37.
+ 1 APPPATH\Controllers\PesertaQurban.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban('2023')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:32:44 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:32:46 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:33:05 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:34:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:36:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:37:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:48:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:49:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:49:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:49:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:49:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 19:49:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:02:44 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\PesertaQurban.php on line 132.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('PesertaQurban/Laporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('PesertaQurban/Laporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('PesertaQurban/Laporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:04:34 --> Undefined variable $setting
+in APPPATH\Views\qurban\v_laporan_pesertaqurban.php on line 18.
+ 1 APPPATH\Views\qurban\v_laporan_pesertaqurban.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\qurban\\v_laporan_pesertaqurban.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_laporan_pesertaqurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_laporan_pesertaqurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(547): view('qurban/v_laporan_pesertaqurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(135): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:26:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 142.
+ 1 APPPATH\Controllers\PesertaQurban.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban(' . $row->id_tahun')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:28:27 --> syntax error, unexpected identifier "target", expecting "," or ";"
+in APPPATH\Views\qurban\v_laporan_pesertaqurban.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_laporan_pesertaqurban', [], true)
+ 3 APPPATH\Views\v_template_admin.php(547): view('qurban/v_laporan_pesertaqurban')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\PesertaQurban.php(135): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:33:54 --> Undefined variable $row
+in APPPATH\Views\qurban\v_laporan_pesertaqurban.php on line 7.
+ 1 APPPATH\Views\qurban\v_laporan_pesertaqurban.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\qurban\\v_laporan_pesertaqurban.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_laporan_pesertaqurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_laporan_pesertaqurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(547): view('qurban/v_laporan_pesertaqurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(135): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:35:47 --> Too few arguments to function App\Controllers\PesertaQurban::KelompokQurban(), 0 passed in C:\laragon\www\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\PesertaQurban.php on line 138.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:39:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 142.
+ 1 APPPATH\Controllers\PesertaQurban.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban(' . $row->id_tahun')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:49:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 20:49:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PesertaQurban.php on line 156.
+ 1 APPPATH\Controllers\PesertaQurban.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\PesertaQurban.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 21:24:36 --> Undefined variable $dicetakoleh
+in APPPATH\Views\viewlaporan\laporan_qurban.php on line 113.
+ 1 APPPATH\Views\viewlaporan\laporan_qurban.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dicetakoleh', 'APPPATH\\Views\\viewlaporan\\laporan_qurban.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewlaporan\\laporan_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewlaporan/laporan_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(547): view('viewlaporan/laporan_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(163): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 21:24:55 --> Invalid file: layout/layout_laporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout_laporan.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/layout_laporan', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewlaporan/laporan_qurban', [], true)
+ 4 APPPATH\Views\v_template_admin.php(547): view('viewlaporan/laporan_qurban')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\PesertaQurban.php(163): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->ViewLaporanQurban()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

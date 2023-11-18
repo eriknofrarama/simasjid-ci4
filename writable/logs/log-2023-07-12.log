@@ -1,0 +1,428 @@
+ERROR - 2023-07-12 08:19:21 --> mysqli_sql_exception: Unknown column 'tanggal_pendaftaran' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:19:21 --> Unknown column 'tanggal_pendaftaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal_pendaftaran) = :YEAR(tanggal_pendaftaran):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:21:01 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:21:01 --> Unknown column 'tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal) = :YEAR(tanggal):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:21:26 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:21:26 --> Unknown column 'tanggal' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal) = :YEAR(tanggal):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:22:16 --> mysqli_sql_exception: Unknown column 'tanggal_pendaftaran' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:22:16 --> Unknown column 'tanggal_pendaftaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal_pendaftaran) = :YEAR(tanggal_pendaftaran):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:24:04 --> mysqli_sql_exception: Unknown column 'tanggal_pendaftaran' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:24:04 --> Unknown column 'tanggal_pendaftaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal_pendaftaran) = :YEAR(tanggal_pendaftaran):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:26:05 --> mysqli_sql_exception: Unknown column 'tanggal_pendaftaran' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelo...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelo...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelo...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelo...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-12 08:26:05 --> Unknown column 'tanggal_pendaftaran' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND YEAR(tanggal_pendaftaran) = 2024
+GROUP BY `id_kelompok`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kelompok`, SUM(`biaya`) AS `biaya`
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND YEAR(tanggal_pendaftaran) = :YEAR(tanggal_pendaftaran):
+GROUP BY `id_kelompok`', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 08:49:34 --> Undefined array key "tanggal"
+in APPPATH\Views\qurban\v_kelompok_qurban.php on line 64.
+ 1 APPPATH\Views\qurban\v_kelompok_qurban.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Views\\qurban\\v_kelompok_qurban.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_kelompok_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_kelompok_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(542): view('qurban/v_kelompok_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(44): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban('15')
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-12 08:58:52 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'field list' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Controllers\PesertaQurban.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertPeserta()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-12 08:58:52 --> Unknown column 'id_tahun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_peserta_kelompok` (`id_tahun`, `id_kelompok`, `nama_peserta`, `alamat`, `no_hp`, `biaya`) VALUES (\'15\', \'51\', \'Wiwin Haryanto\', \'pasaman barat\', \'028482837\', \'2500000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_peserta_kelompok` (`id_tahun`, `id_kelompok`, `nama_peserta`, `alamat`, `no_hp`, `biaya`) VALUES (\'15\', \'51\', \'Wiwin Haryanto\', \'pasaman barat\', \'028482837\', \'2500000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_peserta_kelompok` (`id_tahun`, `id_kelompok`, `nama_peserta`, `alamat`, `no_hp`, `biaya`) VALUES (\'15\', \'51\', \'Wiwin Haryanto\', \'pasaman barat\', \'028482837\', \'2500000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_peserta_kelompok` (`id_tahun`, `id_kelompok`, `nama_peserta`, `alamat`, `no_hp`, `biaya`) VALUES (:id_tahun:, :id_kelompok:, :nama_peserta:, :alamat:, :no_hp:, :biaya:)', [...], false)
+ 5 APPPATH\Controllers\PesertaQurban.php(93): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertPeserta()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 09:47:28 --> Undefined variable $value
+in APPPATH\Views\front-end\v_peserta_qurban.php on line 4.
+ 1 APPPATH\Views\front-end\v_peserta_qurban.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\front-end\\v_peserta_qurban.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 5 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 09:47:41 --> Undefined variable $value
+in APPPATH\Views\front-end\v_peserta_qurban.php on line 4.
+ 1 APPPATH\Views\front-end\v_peserta_qurban.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\front-end\\v_peserta_qurban.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 5 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 09:47:47 --> Undefined variable $value
+in APPPATH\Views\front-end\v_peserta_qurban.php on line 4.
+ 1 APPPATH\Views\front-end\v_peserta_qurban.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\front-end\\v_peserta_qurban.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 5 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 09:47:56 --> Undefined variable $value
+in APPPATH\Views\front-end\v_peserta_qurban.php on line 4.
+ 1 APPPATH\Views\front-end\v_peserta_qurban.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\front-end\\v_peserta_qurban.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 5 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

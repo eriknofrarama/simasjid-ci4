@@ -1,0 +1,210 @@
+CRITICAL - 2023-04-22 20:10:25 --> Too few arguments to function App\Controllers\PesertaQurban::DeleteKelompok(), 1 passed in C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH\Controllers\PesertaQurban.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->DeleteKelompok('7')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 20:10:41 --> Too few arguments to function App\Controllers\PesertaQurban::DeleteKelompok(), 1 passed in C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php on line 925 and exactly 2 expected
+in APPPATH\Controllers\PesertaQurban.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->DeleteKelompok('7')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:19:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:21:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:21:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:22:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:22:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:23:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:23:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:25:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:28:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:42:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:42:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:44:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:44:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:45:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:45:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:45:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:45:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:46:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:46:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:47:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:47:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-22 21:48:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\PesertaQurban.php(61): CodeIgniter\Model->__call('InsertKelompok', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->InsertKelompok()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

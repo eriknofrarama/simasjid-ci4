@@ -1,0 +1,380 @@
+CRITICAL - 2023-07-14 07:30:49 --> syntax error, unexpected token ";"
+in APPPATH\Views\qurban\v_tahun.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 3 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 07:30:57 --> Unmatched '}'
+in APPPATH\Views\qurban\v_tahun.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 3 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-14 07:32:07 --> mysqli_sql_exception: Unknown column 'tahun' in 'where clause' in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Views\front-end\v_peserta_qurban.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('front-end/v_pes...', Array, true)
+#8 C:\laragon\www\simasjid-ci4\app\Views\v_template.php(136): view('front-end/v_pes...')
+#9 C:\laragon\www\simasjid-ci4\system\View\View.php(213): include('C:\\laragon\\www\\...')
+#10 C:\laragon\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\laragon\www\simasjid-ci4\system\Common.php(1135): CodeIgniter\View\View->render('v_template', Array, true)
+#12 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(53): view('v_template', Array)
+#13 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+#14 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-07-14 07:32:07 --> Unknown column 'tahun' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND `tahun` = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND `tahun` = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = \'47\'
+AND `tahun` = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_peserta_kelompok`
+WHERE `id_kelompok` = :id_kelompok:
+AND `tahun` = :tahun:', [...], false)
+ 5 APPPATH\Views\front-end\v_peserta_qurban.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front-end\\v_peserta_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('front-end/v_peserta_qurban', [], true)
+ 9 APPPATH\Views\v_template.php(136): view('front-end/v_peserta_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template', [], true)
+13 APPPATH\Controllers\Home.php(53): view('v_template', [...])
+14 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+15 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 07:42:56 --> Undefined array key "active"
+in APPPATH\Views\qurban\v_tahun.php on line 48.
+ 1 APPPATH\Views\qurban\v_tahun.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Views\\qurban\\v_tahun.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 5 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 07:50:25 --> Undefined array key "active"
+in APPPATH\Views\qurban\v_tahun.php on line 41.
+ 1 APPPATH\Views\qurban\v_tahun.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Views\\qurban\\v_tahun.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 5 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 07:56:35 --> Undefined array key "active"
+in APPPATH\Views\qurban\v_tahun.php on line 42.
+ 1 APPPATH\Views\qurban\v_tahun.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Views\\qurban\\v_tahun.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 5 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:07:11 --> Undefined property: App\Controllers\Tahun::$db
+in APPPATH\Controllers\Tahun.php on line 65.
+ 1 APPPATH\Controllers\Tahun.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$db', 'APPPATH\\Controllers\\Tahun.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetActive('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:07:40 --> Undefined property: App\Controllers\Tahun::$db
+in APPPATH\Controllers\Tahun.php on line 65.
+ 1 APPPATH\Controllers\Tahun.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$db', 'APPPATH\\Controllers\\Tahun.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetActive('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:09:47 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 61.
+ 1 APPPATH\Controllers\Tahun.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->setActive('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:09:50 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 61.
+ 1 APPPATH\Controllers\Tahun.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->setActive('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:11:33 --> Call to a member function setActive() on null
+in APPPATH\Controllers\Tahun.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->setActive('5')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:12:31 --> Undefined property: App\Controllers\Tahun::$db
+in APPPATH\Controllers\Tahun.php on line 63.
+ 1 APPPATH\Controllers\Tahun.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$db', 'APPPATH\\Controllers\\Tahun.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->setActive('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:17:38 --> Too few arguments to function App\Models\ModelTahun::__construct(), 0 passed in C:\laragon\www\simasjid-ci4\app\Controllers\Tahun.php on line 16 and exactly 1 expected
+in APPPATH\Models\ModelTahun.php on line 17.
+ 1 APPPATH\Controllers\Tahun.php(16): App\Models\ModelTahun->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Tahun->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:01:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->__call('GetActiveTahun', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:02:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->__call('GetActiveTahun', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:14:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->__call('GetActiveTahun', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->PesertaQurban()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:48 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:49 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:50 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:52 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:52 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:53 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:53 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 09:52:54 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 10:01:46 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 10:02:04 --> Undefined property: App\Controllers\Tahun::$modelTahun
+in APPPATH\Controllers\Tahun.php on line 69.
+ 1 APPPATH\Controllers\Tahun.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tahun::$modelTahun', 'APPPATH\\Controllers\\Tahun.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->SetStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 11:10:03 --> Undefined variable $activeYear
+in APPPATH\Views\qurban\v_tahun_qurban.php on line 20.
+ 1 APPPATH\Views\qurban\v_tahun_qurban.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activeYear', 'APPPATH\\Views\\qurban\\v_tahun_qurban.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(542): view('qurban/v_tahun_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(30): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 13:59:31 --> Call to undefined method App\Models\ModelTahun::DetailData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(35): CodeIgniter\Model->__call('DetailData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:00:40 --> Call to undefined method App\Models\ModelTahun::DetailData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(35): CodeIgniter\Model->__call('DetailData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:00:41 --> Call to undefined method App\Models\ModelTahun::DetailData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(35): CodeIgniter\Model->__call('DetailData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->KelompokQurban('5')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:12:30 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:12:37 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:14:14 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:15:54 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:17:06 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:17:08 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:18:06 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:18:08 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:18:58 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:23:53 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 14:23:57 --> Call to undefined method App\Models\ModelTahun::AllData
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\PesertaQurban.php(28): CodeIgniter\Model->__call('AllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

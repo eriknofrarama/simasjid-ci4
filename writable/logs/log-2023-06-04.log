@@ -1,0 +1,40 @@
+ERROR - 2023-06-04 13:56:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db-simasjid-ci4', 3306, '', 0)
+#1 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp8\htdocs\simasjid-ci4\app\Models\ModelLogin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp8\htdocs\simasjid-ci4\app\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', '123')
+#6 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Login->CekLogin()
+#7 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8\htdocs\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp8\htdocs\simasjid-ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp8\htdocs\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp8\htdocs\simasjid-ci4\app\Models\ModelLogin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp8\htdocs\simasjid-ci4\app\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', '123')
+#5 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Login->CekLogin()
+#6 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp8\htdocs\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-04 13:56:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\ModelLogin.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', '123')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Login->CekLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

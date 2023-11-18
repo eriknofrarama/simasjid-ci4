@@ -1,0 +1,1361 @@
+CRITICAL - 2023-07-07 12:14:25 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:26 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:27 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:27 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:27 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:27 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:14:29 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:16 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:16 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:17 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:17 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:17 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:17 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:18:18 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:20:39 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:20:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:20:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:20:41 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:20:41 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:39 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:40 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:22:42 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 11.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:23:51 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:24:07 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:24:18 --> Unmatched '}'
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:24:37 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:24:56 --> syntax error, unexpected token ">"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:01 --> syntax error, unexpected token ">"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:07 --> syntax error, unexpected token ">"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 3 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:37 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:39 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:41 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 12:25:43 --> Undefined variable $kas_m
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 14.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kas_m', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-07 14:14:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS subquery' at line 5 in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT kasmasuk...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT kasmasuk...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT kasmasuk...')
+#3 C:\laragon\www\simasjid-ci4\app\Models\ModelKasMasjid.php(58): CodeIgniter\Database\BaseConnection->query('SELECT kasmasuk...')
+#4 C:\laragon\www\simasjid-ci4\app\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+#5 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-07 14:14:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS subquery' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT kasmasuk, kaskeluar, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM 
+                ) AS subquery', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT kasmasuk, kaskeluar, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM 
+                ) AS subquery')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT kasmasuk, kaskeluar, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM 
+                ) AS subquery')
+ 4 APPPATH\Models\ModelKasMasjid.php(58): CodeIgniter\Database\BaseConnection->query('SELECT kasmasuk, kaskeluar, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM 
+                ) AS subquery')
+ 5 APPPATH\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:18:36 --> syntax error, unexpected token "return"
+in APPPATH\Models\ModelKasMasjid.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ModelKasMasjid.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelKasMasjid')
+ 3 APPPATH\Controllers\KasMasjid.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelKasMasjid')
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\KasMasjid->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-07 14:19:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS subquery
+FROM `tbl_kas_masjid`' at line 4 in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT`...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT`...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT`...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT`...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasMasjid.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-07 14:19:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS subquery
+FROM `tbl_kas_masjid`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM ) AS subquery
+FROM `tbl_kas_masjid`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM ) AS subquery
+FROM `tbl_kas_masjid`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM ) AS subquery
+FROM `tbl_kas_masjid`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM ) AS subquery
+FROM `tbl_kas_masjid`', [], false)
+ 5 APPPATH\Models\ModelKasMasjid.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-07 14:19:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+FROM `tbl_kas_masjid`' at line 4 in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT`...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT`...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT`...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT`...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasMasjid.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-07 14:19:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+FROM `tbl_kas_masjid`' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM )
+FROM `tbl_kas_masjid`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM )
+FROM `tbl_kas_masjid`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM )
+FROM `tbl_kas_masjid`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT` `kasmasuk`, `kaskeluar`, (kasmasuk - kaskeluar) AS total
+                FROM (
+                    SELECT SUM(kas_masuk) AS kasmasuk, SUM(kas_keluar) AS kaskeluar
+                    FROM )
+FROM `tbl_kas_masjid`', [], false)
+ 5 APPPATH\Models\ModelKasMasjid.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:24:26 --> syntax error, unexpected token "as", expecting ")"
+in APPPATH\Models\ModelKasMasjid.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ModelKasMasjid.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelKasMasjid')
+ 3 APPPATH\Controllers\KasMasjid.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelKasMasjid')
+ 4 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\KasMasjid->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:25:21 --> Undefined constant "App\Models\kas_masuk"
+in APPPATH\Models\ModelKasMasjid.php on line 56.
+ 1 APPPATH\Controllers\KasMasjid.php(133): App\Models\ModelKasMasjid->getTotalKasmasjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:33:20 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:33:23 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:33:25 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:31 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:32 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:32 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:32 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:32 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:40 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:41 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:41 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:42 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:42 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:42 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:42 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:38:48 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:40:19 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:40:59 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:41:08 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:41:16 --> Undefined variable $detailkasmasjid
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detailkasmasjid', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(149): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:43:11 --> Attempt to read property "kas_masuk" on array
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kas_masuk" on array', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(150): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:43:32 --> Unsupported operand types: array - array
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(150): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:44:16 --> Undefined property: stdClass::$kas_masuk
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kas_masuk', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(150): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:44:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(150): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:45:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(150): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:46:04 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\KasMasjid.php on line 155.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:50:06 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\KasMasjid.php on line 150.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:50:13 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\KasMasjid.php on line 150.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:51:37 --> Cannot use object of type stdClass as array
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:52:23 --> Undefined property: stdClass::$kas_keluar
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kas_keluar', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:55:07 --> Undefined variable $totalKas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalKas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:55:08 --> Undefined variable $totalKas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalKas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:55:08 --> Undefined variable $totalKas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalKas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:55:10 --> Undefined variable $totalKas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalKas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 14:55:10 --> Undefined variable $totalKas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalKas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(151): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:10:07 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:10:09 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:10:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:10:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:10:12 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:01 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:09 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:10 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:28:11 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:20 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:22 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:22 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:22 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:23 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:35 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:45 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:29:45 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:55 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:56 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:56 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:56 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:56 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:41:57 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:43:29 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:43:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\KasMasjid.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:44:05 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:45:03 --> Unsupported operand types: array - array
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:45:24 --> Undefined variable $kasMasu
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 APPPATH\Controllers\KasMasjid.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasMasu', 'APPPATH\\Controllers\\KasMasjid.php', 144)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:45:31 --> Unsupported operand types: stdClass - stdClass
+in APPPATH\Controllers\KasMasjid.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:46:11 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\KasMasjid.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:46:30 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\KasMasjid.php on line 142.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:47:49 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:00 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:01 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:01 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:01 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:02 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\KasMasjid.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('KasMasjid/ViewLaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('KasMasjid/ViewLaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('KasMasjid/ViewLaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:48:13 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:51:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 4 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:57:44 --> Undefined variable $kasKeluar2
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasKeluar2', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:57:45 --> Undefined variable $kasKeluar2
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasKeluar2', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:57:45 --> Undefined variable $kasKeluar2
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasKeluar2', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:57:45 --> Undefined variable $kasKeluar2
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasKeluar2', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 15:57:48 --> Undefined variable $kasKeluar2
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasKeluar2', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:13 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:14 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:15 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:15 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:15 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:15 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:17 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:17 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:23 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:04:32 --> Undefined variable $sisaSaldo
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sisaSaldo', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 16:07:28 --> Undefined variable $kasMasuk
+in APPPATH\Views\kas-yatim\v_data_laporan.php on line 40.
+ 1 APPPATH\Views\kas-yatim\v_data_laporan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasMasuk', 'APPPATH\\Views\\kas-yatim\\v_data_laporan.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-yatim\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasYatim.php(148): view('kas-yatim/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

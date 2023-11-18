@@ -1,0 +1,2285 @@
+ERROR - 2023-06-23 14:19:35 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:19:35 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:23:18 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:23:18 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:23:29 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:23:29 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:05 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:05 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:08 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:08 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:09 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:09 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:10 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:10 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:11 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:11 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:12 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:12 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:24:12 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:24:12 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:25:14 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:25:14 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = \'Masuk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasSosial.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasSosial.php(39): App\Models\ModelKasSosial->AllDataKasMasuk()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasSosial->KasMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:25:16 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:25:16 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelHome.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(69): App\Models\ModelHome->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasSosial()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:25:33 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0317/2023/06/23')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:26:12 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(32): App\Models\ModelKasSosial->AllData()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:26:12 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`', [], false)
+ 5 APPPATH\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(32): App\Models\ModelKasSosial->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:26:18 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Home.php(32): App\Models\ModelKasSosial->AllData()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:26:18 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`', [], false)
+ 5 APPPATH\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(32): App\Models\ModelKasSosial->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:27:45 --> Class "App\Models\ModelKasSosial" not found
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:28:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:29:27 --> Class "App\Models\ModelKasSosial" not found
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:29:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:30:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:31:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:33:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:35:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:35:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:35:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:36:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:36:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:41:59 --> Class "App\Models\ModelKasSosial" not found
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:42:59 --> Class "App\Models\ModelKasSosial" not found
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 14:43:17 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(30): App\Models\ModelKassosial->AllData()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 14:43:17 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`', [], false)
+ 5 APPPATH\Models\ModelKasSosial.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(30): App\Models\ModelKassosial->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:43:55 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\Filters\Filters->run('Kassosial/KasMasuk', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:45:46 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\Filters\Filters->run('Kassosial/KasMasuk', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:46:06 --> Class "App\Models\ModelKasyatim" not found
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 14:46:07 --> Class "App\Models\ModelKasyatim" not found
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:10:59 --> Class "App\Models\ModelKasSosial" not found
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:11:38 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:11:38 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:12:26 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:12:26 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:16:38 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:16:38 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:20:32 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:20:32 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:20:35 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:20:35 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:21:01 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:21:01 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:21:08 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0317/2023/06/23')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:22:47 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:22:47 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:27:56 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:27:56 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:28:08 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:28:08 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:30:29 --> mysqli_sql_exception: Table 'db-simasjid-ci4.yatim' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:30:29 --> Table 'db-simasjid-ci4.yatim' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yatim`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:30:43 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(334): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:34:13 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:34:17 --> mysqli_sql_exception: Table 'db-simasjid-ci4.yatim' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:34:17 --> Table 'db-simasjid-ci4.yatim' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yatim`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:34:46 --> mysqli_sql_exception: Table 'db-simasjid-ci4.yatim' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:34:46 --> Table 'db-simasjid-ci4.yatim' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yatim`
+WHERE `status` = \'Keluar\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yatim`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:38:02 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tb_kas_yatim' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:38:02 --> Table 'db-simasjid-ci4.tb_kas_yatim' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_kas_yatim`
+WHERE `status` = \'Keluar\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_kas_yatim`
+WHERE `status` = \'Keluar\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_kas_yatim`
+WHERE `status` = \'Keluar\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_kas_yatim`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\ModelKasYatim.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasYatim.php(51): App\Models\ModelKasyatim->AllDataKasKeluar()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->KasKeluar()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:40:05 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:41:33 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(334): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:42:23 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:42:34 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:42:34 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:42:40 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:42:40 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:43:18 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:43:18 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:43:23 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:43:23 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:43:53 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:43:53 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:43:57 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:43:57 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:44:09 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:44:09 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:44:42 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:44:42 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:44:51 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:44:51 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:46:30 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:46:30 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:01 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:01 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:06 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:06 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:07 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:07 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:08 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:08 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:09 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:09 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:47:09 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:47:09 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:48:17 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:48:17 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:48:34 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:48:34 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:49:21 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:49:21 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 15:52:07 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 15:52:07 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:53:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 15:54:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->__call('AllDataKasyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->RekapKasyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 16:17:20 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 16:17:20 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:17:43 --> file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. 
+in APPPATH\Controllers\Home.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): php_network_getaddresses: getaddrinfo for api.myquran.com failed: No such host is known. ', 'APPPATH\\Controllers\\Home.php', 25)
+ 2 APPPATH\Controllers\Home.php(25): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/0317/2023/06/23')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 16:19:09 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist in C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\laragon\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\simasjid-ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\simasjid-ci4\app\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\simasjid-ci4\app\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+#6 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(925): App\Controllers\Admin->index()
+#7 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\laragon\www\simasjid-ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 16:19:09 --> Table 'db-simasjid-ci4.tbl_kas_sosial' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = \'06\'
+AND year(tanggal) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_sosial`
+WHERE month(tanggal) = :month(tanggal):
+AND year(tanggal) = :year(tanggal):', [...], false)
+ 5 APPPATH\Models\ModelAdmin.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(32): App\Models\ModelAdmin->AllDataKasSosial()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:21:49 --> Undefined variable $kasyatim
+in APPPATH\Views\v_dashboard.php on line 119.
+ 1 APPPATH\Views\v_dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasyatim', 'APPPATH\\Views\\v_dashboard.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 5 APPPATH\Views\v_template_admin.php(313): view('v_dashboard')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(34): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:22:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:23:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:24:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:25:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:25:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:26:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:27:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:29:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:29:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:30:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(32): CodeIgniter\Model->__call('AllDataKasSosial', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:30:27 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:30:38 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:32:18 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:32:43 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:33:08 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:35:36 --> Invalid file: kas-yatim/yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:36:35 --> Invalid file: kas-yatim/v_rekap_yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/v_rekap_yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_rekap_yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/v_rekap_yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 16:36:50 --> Invalid file: kas-yatim/v_rekap_yatim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-yatim/v_rekap_yatim.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kas-yatim/v_rekap_yatim', [], true)
+ 3 APPPATH\Views\v_template_admin.php(313): view('kas-yatim/v_rekap_yatim')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasYatim.php(28): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\KasYatim->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasYatim))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1 @@
+{"action":"fetch","timeout":0,"error":0,"exit_code":0,"data":[{"homedir":"/home/masjidr1","type":"main","user":"masjidr1"},{"user":"masjidr1_logs","homedir":"/etc/apache2/logs/domlogs/masjidr1","type":"logaccess"}],"version":"2.4","status":1,"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","mode":"simple"}

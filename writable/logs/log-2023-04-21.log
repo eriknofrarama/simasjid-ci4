@@ -1,0 +1,38 @@
+CRITICAL - 2023-04-21 18:05:48 --> Undefined variable $agenda
+in APPPATH\Views\qurban\v_tahun.php on line 90.
+ 1 APPPATH\Views\qurban\v_tahun.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agenda', 'APPPATH\\Views\\qurban\\v_tahun.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun', [], true)
+ 5 APPPATH\Views\v_template_admin.php(289): view('qurban/v_tahun')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Tahun.php(26): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 18:09:01 --> Undefined array key "id_agenda"
+in APPPATH\Models\ModelTahun.php on line 23.
+ 1 APPPATH\Models\ModelTahun.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_agenda"', 'APPPATH\\Models\\ModelTahun.php', 23)
+ 2 APPPATH\Controllers\Tahun.php(45): App\Models\ModelTahun->updateData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Tahun->UpdateData('1')
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tahun))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-21 21:59:45 --> Undefined variable $tahun
+in APPPATH\Views\qurban\v_tahun_qurban.php on line 26.
+ 1 APPPATH\Views\qurban\v_tahun_qurban.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\qurban\\v_tahun_qurban.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_tahun_qurban.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('qurban/v_tahun_qurban', [], true)
+ 5 APPPATH\Views\v_template_admin.php(289): view('qurban/v_tahun_qurban')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\PesertaQurban.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\PesertaQurban->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
